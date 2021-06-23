@@ -1,61 +1,145 @@
-body{
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+}
+
+.header {
+  text-transform: uppercase;
+}
+.links-nav > ul > li {
+  list-style: none;
+}
+
+.header,
+.section-logo,
+.links-nav > ul {
+  display: flex;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.section-logo {
+  margin-left: 40px;
+}
+.navbar {
+  flex-grow: 3;
+  margin-right: 40px;
+}
+.links-nav > ul {
+  justify-content: flex-end;
+}
+.links-nav li {
+  margin: 5px;
+}
+.links-nav a {
+  text-decoration: none;
+  background-color: rgb(236, 236, 236);
+  padding: 20px;
+  color: black;
+}
+.links-nav a:hover {
+  background-color: rgb(226, 78, 42);
+  color: white;
+}
+.active > a {
+  background-color: rgb(226, 78, 42);
+  color: white;
+}
+
+.banner {
+  flex-grow: 1;
+  height: 600px;
+}
+
+.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-top: 10px;
+}
+
+.description {
+  text-align: center;
+  color: white;
+  background-color: rgb(226, 78, 42);
+  text-transform: none;
+  padding: 80px;
+  margin: 0;
+  padding-left: 50px;
+  padding-left: 435px;
+  padding-right: 435px;
+}
+.activities {
+  background-color: rgb(56, 56, 56);
+  display: flex;
+  color: white;
+  text-align: center;
+}
+.activities article {
+  padding: 70px;
+  margin-right: 20px;
+}
+.activities span i {
+  background-color: rgb(226, 78, 42);
+  color: white;
+  font-size: 50px;
+  padding: 20px;
+}
+
+.activities p {
+  color: rgb(108, 108, 108);
+}
+
+.activities hr {
+  border: 1px solid rgb(108, 108, 108);
+}
+.label {
+  margin: 0;
+  text-align: center;
+  padding: 60px;
+}
+.label .lebael-title {
+  opacity: 0.6;
+  margin: 0;
+  padding: 0;
+}
+.label .lebael-description {
+  color: rgb(162, 162, 162);
+  margin-top: 5px;
+  padding-top: 0;
+  margin-bottom: 30px;
+}
+
+.etiam{
+    color: white;
+    background-color: rgb(27, 151, 114);
+    border: none;
+    padding: 20px 45px;
+    letter-spacing: 3px;
+}
+main{
     margin: 0;
     padding: 0;
-    font-family: Helvetica;
 }
-
-.header{
-    text-transform: uppercase;
-
-}
-.links-nav > ul > li{
-    list-style: none;
-}
-
-.header , .section-logo, .links-nav > ul{
-    display: flex;
-    align-items: center;
-}
-
-.header{
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-.section-logo{
-    margin-left: 40px;
-}
-.navbar{
-    flex-grow: 3;
-    margin-right: 40px;
-}
-.links-nav > ul{
-    justify-content: flex-end;
-}
-.links-nav li{
-    margin:5px;
-}
-.links-nav  a{
-    text-decoration: none;
-    background-color: rgb(236, 236, 236);
-    padding: 20px;
-    color: black;
-}
-.links-nav  a:hover{
-    background-color: rgb(226, 78, 42);
+footer{
+    background-color: rgb(27, 151, 114);
     color: white;
-}
-.active > a{
-    background-color: rgb(226, 78, 42);
-    color: white;
-}
-
-.banner{
-    flex-grow: 1;
-    height: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 0;
+    padding: 70px;
 }
 
-.banner img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+footer :not(.important){
+    opacity: 0.4;
+    
+}
+footer .important{
+    opacity: 0.7;
 }
