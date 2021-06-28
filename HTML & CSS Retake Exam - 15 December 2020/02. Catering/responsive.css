@@ -1,0 +1,22 @@
+@media all and (max-width: 600px) {
+  .w3-hide-small {
+    display: none;
+  }
+
+  .w3-col.m6 {
+    width: 100%;
+  }
+  .w3-col.l6.w3-padding-large {
+    box-sizing: content-box;
+    width: 100%;
+  }
+  .w3-row.w3-padding-64 {
+    margin-right: 20px;
+  }
+  .w3-col.l6 {
+    width: 100%;
+  }
+  .w3-padding-large {
+    padding: 12px 12px;
+}
+}
