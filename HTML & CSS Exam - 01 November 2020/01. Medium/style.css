@@ -37,7 +37,6 @@ button {
 }
 section {
     display: flex;
-    /* justify-content: space-between; */
     flex-basis: 50%;
     align-items: flex-end;
 }
