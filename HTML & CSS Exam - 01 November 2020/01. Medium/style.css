@@ -1,0 +1,54 @@
+body,
+html {
+  font-family: Helvetica;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Georgia;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 45px auto;
+    width: 45%;
+    flex-direction: column;
+}
+
+h1 {
+  font-size: 47px;
+  margin-bottom: 0px;
+}
+p {
+  color: rgb(132, 117, 117);
+  margin-bottom: 0;
+}
+button {
+  background-color: rgb(3, 168, 124);
+  color: white;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 50px;
+  font-weight: bold;
+}
+section {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-basis: 50%;
+    align-items: flex-end;
+}
+
+aside,article{
+    flex-basis: 50%;
+}
+main::after{
+    content: "";
+    text-align: center;
+    width: 30% ;
+    border-bottom: 1px solid rgb(132, 117, 117);
+    margin: 50px auto
+}
