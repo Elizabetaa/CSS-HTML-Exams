@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+body,
+html {
+  font-family: Lato;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+
+.first {
+  background-color: rgb(227, 243, 253);
+  flex-basis: 45%;
+  padding: 30px 25px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 12px 0px #a5a2a2;
+}
+.first > h1 {
+  color: rgb(76, 90, 107);
+  font-weight: 500;
+  font-size: 25px;
+  margin-top: 0px;
+}
+.first aside i {
+  color: rgb(68, 169, 248);
+}
+
+.first > section {
+  display: flex;
+  align-items: center;
+}
+.first > section > p {
+  color: rgb(112, 116, 118);
+  margin: 10px;
+}
+.first > section > aside {
+  margin-right: 25px;
+}
+.second {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  flex-basis: 45%;
+  border-radius: 8px;
+  align-items: center;
+  border: 5px solid rgb(68, 169, 248);
+}
+
+.main-art {
+  display: flex;
+  margin: 50px auto;
+  width: 60%;
+  justify-content: space-between;
+}
+.second > section{
+  display: flex;
+    align-items: center;
+}
+
+.second > section > h1 {
+  color: rgb(68, 169, 248);
+  font-size: 50px;
+  font-weight: 500;
+}
+.second > section > aside {
+  color: rgb(112, 116, 118);
+  font-size: 21px;
+}
+
+.second > p {
+  color: rgb(112, 116, 118);
+  font-size: 18px;
+}
+
+.second > button {
+  background-color: rgb(68, 169, 248);
+  color: white;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding: 11px 50px;
+  letter-spacing: 1.5px;
+  font-size: 14px;
+}

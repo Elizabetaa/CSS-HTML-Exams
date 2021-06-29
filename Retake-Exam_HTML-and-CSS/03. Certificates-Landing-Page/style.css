@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+html,
+body {
+  font-family: Lato;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin: auto;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 0px #a0a0a0;
+  border-radius: 5px;
+  padding: 12px 49px;
+  border-top: none;
+  align-items: center;
+}
+
+.header-logo {
+  flex-basis: 40%;
+}
+
+.header-logo > img {
+  max-width: 160px;
+}
+.header-menu {
+  flex-basis: 45%;
+}
+.header-menu > ul {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding-left: 0;
+  align-items: center;
+  font-size: 26px;
+}
+
+.header-menu > ul > li {
+  list-style: none;
+}
+.header-menu > ul > li > a {
+  text-decoration: none;
+  color: rgb(63, 77, 94);
+}
+
+.header-menu > ul > li:nth-child(7) > a {
+  background-color: rgb(66, 171, 248);
+  padding: 10px;
+  border-radius: 30px;
+  color: white;
+  box-shadow: 0px 0px 8px 0px rgb(66 171 248);
+}
+
+.banner {
+  display: flex;
+  margin-top: 108px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.certificates {
+  background-color: rgb(41, 57, 75);
+  color: white;
+  padding: 20px 29px;
+  font-size: 24px;
+  width: 45%;
+  border-radius: 8px;
+}
+
+.certificates h1 {
+  font-size: 35px;
+  font-weight: 500;
+  margin-bottom: 26px;
+  margin-top: 5px;
+}
+
+.diploma-iamge {
+  flex-basis: 30%;
+}
+
+.diploma-iamge > .first {
+  width: 40%;
+  position: relative;
+}
+.diploma-iamge > .second {
+  width: 14%;
+  top: 208px;
+  position: absolute;
+}
+.italic-p {
+  margin-left: 100px;
+  font-style: italic;
+  color: rgb(63, 77, 94);
+  font-size: 20px;
+}
+
+header {
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+header::after {
+  z-index: -1;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image: url("./images/hero-certificates.jpg");
+  /* position: fixed;  */
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  min-height: 100%;
+  content: "";
+  opacity: 0.2;
+}
+
+main {
+  padding: 70px 90px;
+  color: rgb(63, 77, 94);
+}
+main > article {
+  background-color: rgb(244, 245, 247);
+  padding: 20px 40px;
+}
+main h1 {
+  text-align: center;
+  font-weight: 500;
+}
+
+.card {
+  background-image: url("./images/sign-up-prompt-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 100%;
+  color: white;
+  text-align: center;
+  padding: 20px 50px;
+}
