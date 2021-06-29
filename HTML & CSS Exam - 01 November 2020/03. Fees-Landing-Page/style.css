@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
 html,
 body {
   font-family: Lato;
@@ -19,16 +20,16 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 10px 125px;
+  margin: 20px 128px;
 }
 .logo {
   flex-basis: 40%;
 }
 .logo > img {
-  max-width: 150px;
+  max-width: 170px;
 }
 .nav-menu {
-  flex-basis: 20%;
+  flex-basis: 22%;
 }
 .nav-menu > ul > li {
   list-style: none;
@@ -40,6 +41,8 @@ header {
 }
 .nav-menu > ul > li > a {
   text-decoration: none;
+  color: black;
+  font-size: 20px;
 }
 .banner {
   background-color: rgb(84, 84, 109);
@@ -50,33 +53,35 @@ header {
 
 .banner-title {
   color: white;
-  padding: 20px;
+  padding: 39px;
   text-align: center;
-  font-size: 22px;
+  font-size: 38px;
 }
 .banner-title h1 {
   font-weight: 400;
 }
 .cards {
   display: flex;
-  width: 85%;
+  width: 90%;
   justify-content: space-between;
   margin: auto;
   position: absolute;
+  top: 200px;
   left: 50%;
   transform: translate(-50%, 0);
 }
 .card {
   background-color: #fff;
-  flex-basis: 25%;
-  border-radius: 4px;
+  flex-basis: 32%;
+  border-radius: 10px;
   box-shadow: 0px 0px 4px 0px #716d6d;
   text-align: center;
   color: rgb(84, 84, 109);
 }
 
 .price {
-  border-bottom-right-radius: 4px;
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
   color: white;
 }
 .price h3,
@@ -90,11 +95,14 @@ p {
 }
 .card a {
   background-color: rgb(154, 93, 198);
-  padding: 10px 45px;
-  border-radius: 20px;
+  padding: 22px 52px;
+  border-radius: 33px;
   color: white;
+  font-size: 20px;
   text-decoration: none;
   margin-top: 50px;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 .card:nth-child(1) > .price {
   background-image: linear-gradient(
@@ -147,4 +155,115 @@ p {
     #8475da,
     #8a7bdf
   );
+}
+
+.price {
+  display: flex;
+  justify-content: space-around;
+}
+
+.price > article > h3 {
+  margin-bottom: 0;
+  font-size: 30px;
+  padding-bottom: 15px;
+  font-weight: 500;
+}
+.price > article > p {
+  margin-top: 5px;
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+.card-desc * {
+  margin: 30px;
+}
+.card-desc h2 {
+  font-size: 30px;
+}
+.card-desc p {
+  font-size: 25px;
+}
+.calculator-image > img {
+  width: 185px;
+}
+.calculator-image {
+  position: absolute;
+  left: -73px;
+  top: 117px;
+}
+
+.form-of-education {
+  padding: 280px;
+  font-size: 23px;
+  padding-bottom: 100px;
+  color: rgb(84, 84, 109);
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr:nth-child(1) > td:nth-child(1){
+  border-top-left-radius: 10px;
+}
+tr:nth-child(6) > td:nth-child(1){
+  border-bottom-left-radius: 10px;
+}
+tr:nth-child(6) > td:nth-child(3){
+  border-bottom-right-radius: 10px;
+}
+tr:nth-child(odd) {
+  background-color: rgb(230, 230, 230);
+}
+tr:nth-child(even) {
+  background-color: rgb(248, 248, 248);
+}
+td {
+  padding: 15px 163px 15px 15px;
+}
+.fas.fa-check {
+  color: rgb(18, 169, 69);
+}
+.fas.fa-times {
+  color: rgb(252, 76, 80);
+}
+.post-bank {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 23px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.post-bank > h2 {
+  flex-basis: 100%;
+  color: rgb(84, 84, 109);
+  font-weight: 500;
+}
+.post-bank > article {
+  flex-basis: 63%;
+}
+.post-bank > article > p {
+  color: rgb(86, 86, 86);
+}
+.post-bank > aside {
+  flex-basis: 30%;
+}
+.post-bank > aside > img{
+  width: 90%;
+}
+footer {
+  background-color: rgb(84, 84, 109);
+  color: rgb(144, 143, 171);
+  margin-bottom: 0;
+  margin-top: 120px;
+  padding: 12px;
+  font-size: 20px;
+  text-align: center;
 }
