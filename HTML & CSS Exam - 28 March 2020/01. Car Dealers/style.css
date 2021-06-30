@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+html,
+body {
+  font-family: Rubik, sans-serif;
+  font-size: 20px;
+  margin: 0;
+  padding: 35px 120px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 35px;
+}
+
+ul {
+    padding-left: 0;
+}
+li {
+  list-style: none;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.desc {
+  flex-basis: 47%;
+}
+
+.desc > h1 {
+  margin-top: 5px;
+}
+
+.car-image {
+  flex-basis: 47%;
+}
+
+.car-image > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+p{
+    opacity: 0.5;
+}
+li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+aside{
+    flex-basis: 5%;
+}
+.list-desc{
+    flex-basis: 80%;
+}
+
+.list-desc *{
+    margin: 5px;
+}
+
+.constraints{
+    margin-top: 90px;
+}

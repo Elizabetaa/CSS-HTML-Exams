@@ -1,0 +1,209 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  font-family: Roboto;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+}
+.menu {
+  width: 70%;
+  margin: 50px auto;
+}
+.menu ul {
+  display: flex;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+
+.menu > ul > li {
+  list-style: none;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+  text-transform: uppercase;
+}
+.banner {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin: auto;
+  justify-content: flex-end;
+  margin-top: 100px;
+}
+
+.desc > h1 {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 200;
+}
+.desc {
+  flex-basis: 30%;
+  padding-right: 10%;
+}
+.desc > p {
+  color: rgb(77, 77, 77);
+}
+.headphones {
+  flex-basis: 50%;
+  overflow: hidden;
+}
+
+.banner > aside > img {
+  width: 101%;
+  padding-left: 14px;
+}
+
+button {
+  background-color: rgb(255, 0, 0);
+  color: white;
+  padding: 20px 60px;
+  border: none;
+  border-radius: 40px;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 100;
+  margin-top: 40px;
+}
+
+.powerbeats {
+  padding-top: 200px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-between;
+}
+.powerbeats p {
+  color: rgb(77, 77, 77);
+}
+.powerbeats-image {
+  flex-basis: 45%;
+}
+.powerbeats-desc {
+  flex-basis: 40%;
+}
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  width: 85%;
+}
+.title,
+.powerbeats-desc > button {
+  text-transform: uppercase;
+}
+.powerbeats strong {
+  color: black;
+}
+.title > p {
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.title > h1 {
+  font-size: 93px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.price.buy-now > h2 {
+  margin: 0;
+  font-size: 45px;
+  padding-right: 35px;
+}
+
+.price.buy-now {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+.price.buy-now > button {
+  margin: 0;
+}
+
+.free {
+  margin-bottom: 0;
+  text-transform: uppercase;
+  background-color: rgb(87, 87, 87);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.free a {
+  text-decoration: none;
+  color: white;
+  margin: 30px auto;
+  padding: 5px;
+  border-bottom: 1px solid white;
+}
+
+.free > section {
+  display: flex;
+  margin: 30px auto;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.free > section > aside > img {
+  max-width: 75px;
+  margin-right: 15px;
+}
+
+.images {
+  display: flex;
+  margin-top: -2px;
+  align-items: stretch;
+}
+.images > aside {
+  flex-basis: 50%;
+}
+.images > aside > img {
+  width: 100%;
+  height: 100%;
+}
+
+.give-life {
+  flex-basis: 50%;
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(218, 218, 218);
+}
+.give-life-title {
+  width: 45%;
+  align-items: center;
+}
+.give-life-title > h1 {
+  flex-basis: 100%;
+  font-size: 175px;
+  color: rgb(51, 51, 51);
+  margin-bottom: 0;
+}
+.give-life-title > h1,
+.give-life-title > p > strong {
+  text-transform: uppercase;
+}
+
+.give-life-title > p > strong {
+  color: rgb(255, 0, 0);
+}
+.give-life-title > p {
+  font-size: 65px;
+}
+.give-life > aside {
+  margin-top: 230px;
+}
+footer > p {
+  text-align: center;
+  color: rgb(73, 73, 73);
+  font-size: 30px;
+}
