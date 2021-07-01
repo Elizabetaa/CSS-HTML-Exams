@@ -1,0 +1,28 @@
+@media all and (max-width: 768px) {
+  .main-movie-poster {
+    display: none;
+  }
+
+  .main-movie ul li {
+    padding: 0;
+    width: 100%;
+    margin: auto;
+  }
+  .main-movie ul {
+    width: 85%;
+  }
+
+  .main-movie-trailer > iframe {
+    width: 100%;
+    object-fit: contain;
+  }
+}
+
+@media all and (max-width: 414px) {
+  .main-movie ul {
+    width: 100%;
+  }
+  .movie-list {
+    flex-wrap: wrap;
+  }
+}

@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body,
+html {
+  margin: 0%;
+  padding: 0%;
+  font-family: Gelasio, sans-serif;
+}
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./images/map.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0%;
+  background-size: cover;
+}
+nav {
+  display: flex;
+  width: 95%;
+  padding-top: 15px;
+  margin: auto;
+  justify-content: space-between;
+}
+
+.logo > img {
+  max-width: 70px;
+}
+
+.login > ul {
+  display: flex;
+}
+.login > ul > li {
+  list-style: none;
+}
+
+.login > ul > li > a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+}
+
+.fas.fa-search {
+  margin-left: 35px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: center;
+  padding-bottom: 180px;
+}
+
+.banner-title {
+  margin-bottom: 0;
+  margin-top: 320px;
+  color: white;
+  text-align: center;
+  font-size: 90px;
+  font-weight: 600;
+}
+
+.banner > button {
+  border: none;
+  color: white;
+  background-color: rgb(20, 101, 148);
+  padding: 12px 12px;
+  font-size: 27px;
+  border-radius: 7px;
+}
+
+.trip-title {
+  color: rgb(81, 86, 89);
+}
+
+.pack {
+  background-image: url(./images/packing.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.plan {
+  background-image: url(./images/planning.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.budget {
+  background-image: url(./images/budget.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.trip {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: auto;
+}
+.trip-title{
+    font-size: 40px;
+}
+.trip-articles {
+  display: flex;
+  font-size: 25px;
+  color: white;
+}
+.trip-articles h3 {
+  text-align: center;
+  font-size: 40px;
+  font-weight: 100;
+  text-shadow: 2px 2px 2px rgba(38, 56, 47);
+}
+
+.pack {
+  flex-basis: 40%;
+  padding-bottom: 650px;
+}
+.article-plan-budget {
+  flex-basis: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.article-plan-budget > article {
+  flex-basis: 50%;
+}
+.budget {
+  position: relative;
+}
+
+.budget > h3 {
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+}
+footer{
+
+    margin-top: 50px;
+    background-color: rgb(140, 140, 140);
+}
+.links ul{
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+.links li{
+    list-style: none;
+    /* border-right: 1px solid rgb(204, 204, 204); */
+    padding: 15px;
+}
+.links a{
+    text-decoration: none;
+    color: rgb(204, 204, 204);
+    font-size: 20px;
+}
+
+
+.links{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+hr{
+    height: 25px;
+    border:1px solid rgb(204, 204, 204);
+}
