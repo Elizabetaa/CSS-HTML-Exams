@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://use.fontawesome.com/releases/v5.15.3/css/all.css");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  background-color: rgb(65, 190, 173);
+}
+
+nav {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding: 15px 100px;
+}
+.logo {
+  flex-basis: 30%;
+}
+.logo > img {
+  width: 150px;
+}
+.menu {
+  flex-basis: 40%;
+}
+.list-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 0;
+}
+
+.list-menu > li {
+  list-style: none;
+}
+.list-menu > li > a {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.banner {
+  background-color: rgb(255, 180, 2);
+  text-align: center;
+  color: white;
+  padding: 50px 600px;
+}
+
+.banner > h1 {
+  font-size: 35px;
+  font-weight: 600;
+}
+.banner > p {
+  font-size: 18px;
+}
+
+.best-trainers {
+  display: flex;
+  padding: 60px 100px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.trainer {
+  flex-basis: 45%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trainer-image > img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 110px;
+  border: 8px solid rgb(65, 190, 173);
+}
+.trainer-information {
+  flex-basis: 65%;
+}
+
+.trainer-information > h2 {
+  margin-top: 0;
+  color: rgb(65, 190, 173);
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.trainer-position {
+  color: rgb(178, 178, 178);
+}
+
+.trainder-description {
+  font-size: 20px;
+  color: rgb(86, 86, 86);
+}
+.all-trainers {
+  display: flex;
+  padding: 200px;
+}
+
+.all-trainers .trainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.all-trainers .trainer .trainer-information {
+  text-align: center;
+}
+
+.all-trainers .trainer .trainer-information h2 {
+  margin-top: 35px;
+}
+
+.trainer-position {
+  margin-top: 0;
+}
+.part-of-team-form {
+  background-color: rgb(102, 185, 248);
+  border-top: 12px solid rgb(146, 205, 251);
+  color: white;
+  text-align: center;
+  padding: 45px 50px 240px 45px;
+}
+
+.part-of-team-form > article > h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.part-of-team-form > article > p {
+  font-size: 20px;
+  padding: 0 415px;
+  font-weight: 100;
+}
+form {
+  padding-top: 30px;
+}
+
+input {
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid white;
+  width: 300px;
+  height: 50px;
+  padding-left: 10px;
+  font-size: 24px;
+  color: white;
+  margin-right: 50px;
+}
+
+input::placeholder {
+  color: white;
+}
+.button-send > input {
+  background-color: rgb(255, 145, 0);
+  color: white;
+  border: none;
+  text-transform: uppercase;
+  width: 180px;
+  border-radius: 25px;
+  box-shadow: 0px 5px 8px 3px grey;
+}
+
+footer {
+  display: flex;
+  background-color: rgb(86, 86, 86);
+  border-top: 12px solid rgb(143, 143, 143);
+  color: white;
+}
+footer section {
+    margin-left: 200px;
+}
+
+footer ul {
+  padding-left: 0;
+
+}
+
+footer li {
+  list-style: none;
+  padding: 0px 10px 10px 0px;
+}
+footer a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+}
+
+.social-media{
+    display: flex;
+}
+.social-media > li{
+    margin-right: 10px;
+}
+.social-media i{
+    font-size: 25px;
+}
+
