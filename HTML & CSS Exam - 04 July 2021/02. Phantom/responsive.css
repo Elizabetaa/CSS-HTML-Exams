@@ -1,0 +1,70 @@
+@media all and (max-width: 900px) {
+  .inner > header br {
+    display: none;
+  }
+  header p {
+    font-size: 17px;
+  }
+  .inner > header h1 {
+    font-size: 2.2em;
+  }
+  .tiles {
+    margin: auto;
+    justify-content: space-between;
+  }
+  .tiles article {
+    margin: 0;
+    width: 48%;
+    margin-bottom: 4%;
+  }
+  .tiles article > a h2 {
+    font-size: 0.8em;
+  }
+
+  #footer > .inner section:nth-child(1) {
+    width: calc(66% - 2.5em);
+    margin-right: 0;
+  }
+
+  #footer > .inner section:nth-child(2) {
+    width: calc(40% - 2.5em);
+  }
+}
+@media all and (max-width: 600px) {
+  header p {
+    font-size: 15px;
+  }
+  .tiles article {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+  #footer > .inner section:nth-child(1) {
+    order: 2;
+    width: 100%;
+  }
+  #footer > .inner section:nth-child(2) {
+    width: calc(40% - 2.5em);
+    margin-left: 0;
+    order: 1;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  .copyright {
+    order: 3;
+  }
+  .actions > li {
+    width: 100%;
+  }
+  .actions > li > input {
+    width: 100%;
+  }
+  ul.icons li {
+    padding: 1em 0 0 1.2em;
+  }
+   .fields {
+    flex-direction: column;
+  }
+  form > .fields > .field.half { 
+    width: 100%;
+  }
+}
